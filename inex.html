@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Шуточный магазин ключей Windows</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+<div class="container">
+<h1>Шуточный магазин ключей Windows</h1>
+</div>
+</header>
+<main>
+<section class="intro">
+<div class="container">
+<h2>Авторизация</h2>
+<form id="auth-form">
+<label for="username">Имя пользователя:</label>
+<input type="text" id="username" name="username" required>
+<label for="password">Пароль:</label>
+<input type="password" id="password" name="password" required>
+<button type="submit">Войти</button>
+</form>
+</div>
+</section>
+<section id="key-container" class="keys" style="display: none;">
+<div class="container">
+<h2>Шуточные ключи Windows</h2>
+<div class="buttons">
+<button onclick="showKeys('windows10')">Windows 10</button>
+<button onclick="showKeys('windows11')">Windows 11</button>
+<button onclick="showKeys('windows7')">Windows 7</button>
+<button onclick="showKeys('windows8')">Windows 8</button>
+</div>
+<div id="keys-section" class="keys-section">
+<h3 id="key-type"></h3>
+<ul id="keys-list"></ul>
+</div>
+</div>
+</section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>

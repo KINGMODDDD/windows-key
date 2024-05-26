@@ -1,0 +1,86 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+background: url('background.jpg') no-repeat center center fixed;
+background-size: cover;
+color: white;
+}
+
+.container {
+max-width: 800px;
+margin: 0 auto;
+padding: 20px;
+text-align: center;
+}
+
+header {
+background: rgba(0, 0, 0, 0.8);
+padding: 20px 0;
+}
+
+header h1 {
+margin: 0;
+font-size: 2rem;
+}
+
+.intro, .keys {
+background: rgba(0, 0, 0, 0.6);
+padding: 50px 0;
+margin-top: 20px;
+border-radius: 10px;
+}
+
+form {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+label, input {
+margin-bottom: 10px;
+}
+
+button {
+padding: 10px 20px;
+border: none;
+background: #6200ea;
+color: white;
+cursor: pointer;
+border-radius: 5px;
+}
+
+button:hover {
+background: #3700b3;
+}
+
+.buttons {
+display: flex;
+justify-content: center;
+margin-bottom: 20px;
+}
+
+.buttons button {
+margin: 0 10px;
+}
+
+.keys-section {
+display: none;
+}
+
+.key-item {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background: rgba(255, 255, 255, 0.1);
+margin: 5px 0;
+padding: 10px;
+border-radius: 5px;
+}
+
+.key-item button {
+background: #5cb85c;
+}
+
+.key-item button:hover {
+background: #4cae4c;
+}
